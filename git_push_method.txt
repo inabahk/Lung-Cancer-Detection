@@ -1,0 +1,12 @@
+Have Git and Git LFS installed
+submit email and a username for Git from VS Code
+
+rmdir /s /q .git
+git init
+git lfs install
+git lfs track "*.keras"
+git add .
+git commit -m "Initial commit with LFS"
+git remote add origin https://github.com/bharathreddyvarakala-lgtm/Lung-Cancer-Detection.git
+git branch -M master
+git push -u origin master
