@@ -81,4 +81,4 @@ if uploaded_file is not None:
 
         st.subheader("📊 Class Probabilities:")
         for i, cls in enumerate(CLASS_NAMES):
-            st.write(f"{cls}: {predictions[0][i]*100:.2f}%")
+            st.write(f"{cls}: {predictions[0][i]*100:.2f}%") 
